@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "ecommerce-project",
+    "slug": "ecommerce-project",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.host.exponent"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "bundleIdentifier": "com.host.exponent"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9b628928-592a-49d6-abc0-57b1d6da2c94"
+      }
+    }
+  }
+}
