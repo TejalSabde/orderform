@@ -30,7 +30,7 @@ const RegisterScreen = () => {
   useEffect(() => {
     const getOutletList = async () => {
       axios
-        .get("http://192.168.1.9:9000/outletList")
+        .get("http://13.233.20.152/outletList")
         .then((response) => {
           console.log(response);
           let newArray = response.data.map((item, index) => {
@@ -55,7 +55,7 @@ const RegisterScreen = () => {
     console.log(user)
     // send a POST  request to the backend API to register the user
     axios
-      .post("http://192.168.1.9:9000/register", user)
+      .post("http://13.233.20.152/register", user)
       .then((response) => {
         console.log(response);
         Alert.alert(

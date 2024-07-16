@@ -30,7 +30,7 @@ const ConfirmationScreen = () => {
   // const fetchAddresses = async () => {
   //   try {
   //     const response = await axios.get(
-  //       `http://192.168.1.9:9000/addresses/${userId}`
+  //       `http://13.233.20.152/addresses/${userId}`
   //     );
   //     const { addresses } = response.data;
 
@@ -54,7 +54,7 @@ const ConfirmationScreen = () => {
   //     };
 
   //     const response = await axios.post(
-  //       "http://192.168.1.9:9000/orders",
+  //       "http://13.233.20.152/orders",
   //       orderData
   //     );
   //     if (response.status === 200) {
@@ -94,7 +94,7 @@ const ConfirmationScreen = () => {
       };
       console.log(orderData);
       const response = await axios.post(
-        "http://192.168.1.9:9000/orders",
+        "http://13.233.20.152/orders",
         orderData
       );
       if (response.status === 200) {

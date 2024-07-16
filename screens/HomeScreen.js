@@ -85,7 +85,7 @@ const HomeScreen = () => {
     const fetchData = async () => {
       const outlet = await AsyncStorage.getItem("outlet");
       setSelectedOutlet(outlet)
-      axios.get("http://192.168.1.9:9000/products")
+      axios.get("http://13.233.20.152/products")
         .then((response) => {
 
           setProducts(response.data.products)

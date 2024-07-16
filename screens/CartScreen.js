@@ -64,7 +64,7 @@ const CartScreen = () => {
         paymentMethod: "card",
       };
       const response = await axios.post(
-        "http://192.168.1.9:9000/orders",
+        "http://13.233.20.152/orders",
         orderData
       );
       if (response.status === 200) {

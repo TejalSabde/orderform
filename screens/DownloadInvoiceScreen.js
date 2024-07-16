@@ -28,7 +28,7 @@ const ProfileScreen = () => {
         const fetchAllOrders = async () => {
             try {
                 const response = await axios.get(
-                    `http://192.168.1.9:9000/allorders/${userId}`
+                    `http://13.233.20.152/allorders/${userId}`
                 );
                 setOrders(response.data.orders);
                 const orderDateList = response.data.orders.map((item) => {

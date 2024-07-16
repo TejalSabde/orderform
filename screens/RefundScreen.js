@@ -47,7 +47,7 @@ const RefundScreen = () => {
       status:''
     }
     const response = await axios.post(
-      `http://192.168.1.9:9000/saveRefundOrder`, returnOrders
+      `http://13.233.20.152/saveRefundOrder`, returnOrders
     );
     console.log(response);
     Alert.alert("Refund raised successfully. Please wait for 2-3 days for furthur process.")
